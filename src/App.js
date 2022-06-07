@@ -52,6 +52,8 @@ const App = () => {
 					handleDeleteNote={deleteNote}
 				/>
 			</div>
+			<br></br>
+			<br></br>
 		</div>
 	);
 };

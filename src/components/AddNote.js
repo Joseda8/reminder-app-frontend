@@ -58,10 +58,10 @@ const AddNote = ({ handleAddNote }) => {
 				value={noteText}
 				onChange={handleChange}
 			></textarea>
-			<div>
-				<input type="file" onChange={onImageChange} />
-				<img src={imgPath} alt="" style={{maxWidth: 50}}/>
-			</div>
+
+			<input type="file" onChange={onImageChange} />
+			<img src={imgPath} alt="" style={{maxWidth: 50}}/>
+
 			<div className='note-footer'>
 				<small>
 					{characterLimit - noteText.length} Remaining
